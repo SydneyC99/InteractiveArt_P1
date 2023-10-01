@@ -3,6 +3,7 @@ let width;
 let pdf1;
 let pdf2;
 let input = false;
+let div1;
 
 function preload() {
   pdf1 = loadStrings('assets/GoogleTOS.txt');
@@ -10,28 +11,30 @@ function preload() {
 }
 
 function setup() {
-  width = windowWidth;
-  height = windowHeight;
-  createCanvas(width, height);
-  
+  // width = windowWidth;
+  // height = windowHeight;
+  // createCanvas(width, height);
+  noCanvas();
+  div1 = createDiv(pdf1);
+  div.style('font-size', '16px');
 }
 
 function draw() {
-  background(225);
-  text(pdf1, 50, 50, 300, 300);
-  text(pdf2, 50, 320, 300, 300);
-  showInput();
+  // background(225);
+  // text(pdf1, 50, 50, 300, 300);
+  // text(pdf2, 50, 320, 300, 300);
+  // showInput();
 }
 
-function windowResized() {
-  width = windowWidth;
-  height = windowHeight;
-  resizeCanvas(width,height);
-}
+// function windowResized() {
+//   width = windowWidth;
+//   height = windowHeight;
+//   resizeCanvas(width,height);
+// }
 
-function showInput() {
-  if (input === false) {
-    input = createInput("Answer Here");
-    input = true;
-  }
-}
+// function showInput() {
+//   if (input === false) {
+//     input = createInput("Answer Here");
+//     input = true;
+//   }
+// }
