@@ -16,7 +16,7 @@ function setup() {
   // createCanvas(width, height);
   noCanvas();
   div1 = createDiv(pdf1);
-  div.style('font-size', '16px');
+  div1.style('font-size', '16px');
 }
 
 function draw() {
