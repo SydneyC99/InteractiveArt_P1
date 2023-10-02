@@ -1,40 +1,20 @@
-let height;
-let width;
-let pdf1;
-let pdf2;
-let input = false;
-let div1;
-
-function preload() {
-  pdf1 = loadStrings('assets/GoogleTOS.txt');
-  pdf2 = loadStrings('assets/GoogleTOS_2.txt');
-}
+// #declare array of images
+// #declare array of questions (just the text like "What does Google have access to in....")
+// #declare array of the correct answers
 
 function setup() {
-  // width = windowWidth;
-  // height = windowHeight;
-  // createCanvas(width, height);
-  noCanvas();
-  div1 = createDiv(pdf1);
-  div1.style('font-size', '16px');
+//     #call function to load the next image and question
 }
 
-function draw() {
-  // background(225);
-  // text(pdf1, 50, 50, 300, 300);
-  // text(pdf2, 50, 320, 300, 300);
-  // showInput();
-}
-
-// function windowResized() {
-//   width = windowWidth;
-//   height = windowHeight;
-//   resizeCanvas(width,height);
+// function loadImageAndQuestionStuff(parameter of the current image number?) {
+//     # check that we aren't over the bounds of the array
+//     # load the image
+//     # load the radio buttons (maybe call a function to do this for you?)
 // }
 
-// function showInput() {
-//   if (input === false) {
-//     input = createInput("Answer Here");
-//     input = true;
-//   }
+// function createRadioButtons(parameter of current image/question number) {
+//     # use the createButton function from p5.js
+//     # create a submit button for the question
+//     # set the mousePressed to check if the answer was right by referring to the answer array we declared at the beginning
+//     # if it's right, call loadImageAndQuestionStuff
 // }
