@@ -10,20 +10,21 @@ function setup() {
 //     #call function to load the next image and question
 }
 
-function loadNextPage(pdfPages + questions) {
+function loadNextPage(pdfPages) {
   
 }
-// function loadImageAndQuestionStuff(parameter of the current image number?) {
+// function loadNextPage(parameter of the current image number?) {
 //     # check that we aren't over the bounds of the array
 //     # load the image
 //     # load the radio buttons (maybe call a function to do this for you?)
 // }
-function createRadioButtons(pdfPages + questions) {
+function createRadioButtons(pdfPages, questions) {
   
 }
 // function createRadioButtons(parameter of current image/question number) {
 //     # use the createButton function from p5.js
 //     # create a submit button for the question
-//     # set the mousePressed to check if the answer was right by referring to the answer array we declared at the beginning
-//     # if it's right, call loadImageAndQuestionStuff
+//     # set the mousePressed to check if the answer was right
+//     # by referring to the answer array we declared at the beginning
+//     # if it's right, call loadNextPage
 // }
