@@ -1,5 +1,7 @@
 let pdfQuestions = ("Question 1: Who are you contracting with?");
-let i = 0;
+let A = ("Google LLC");
+let B = ("The Internet");
+let C = ("My Computer");
 // #declare array of images
 // let questions = ["q1", "q2", "q3"];
 // #declare array of questions (just the text like "What does Google have access to in....")
@@ -16,11 +18,18 @@ function setup() {
   console.log("Got it!");
   let img = createImg("assets/ladyBug-00.jpg");
   img.parent(p2);
+  answers = createRadio();
+  answers.option ('A)' + " " + A);
+  answers.option ('B)' + " " + B);
+  answers.option ('C)' + " " + C);
   
 //     #call function to load the next image and question
 }
 
+// function createRadioButtons() {
+ 
 
+// }
 
 
 // function loadNextPage(parameter of the current image number?) {
