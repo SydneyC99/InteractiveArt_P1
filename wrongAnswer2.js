@@ -4,13 +4,13 @@ let p;
 function setup() {
     p = createP("404 Error");
     p.position(30, 30);
-    alert("Nope that's not it! Try again.");
+    alert("No, that's not it.");
     
 }
 
 
 function draw(){
     if (frameCount >= 60*5) {
-        location.href = "index.html";
+        location.href = "page2.html";
     }
 }
