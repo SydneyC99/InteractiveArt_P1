@@ -4,20 +4,22 @@ let A = "A) Google LLC";
 let B = "B) The Internet";
 let C = "C) My Computer";
 let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
- 
-  let p =  createP(pdfQuestions);
-  let p2 = createP ();
+  p2 = createP ();
+  p =  createP(pdfQuestions);
+  
   console.log("Got it!");
-  let img = createImg("assets/ladyBug-00.jpg");
+  let img = createImg("assets/Page_01.jpg");
   img.parent(p2);
   answers = createRadio();
   answers.option (A);
   answers.option (B);
   answers.option (C);
-  
+  answers.class("Answers");
   // p.mouseClicked(clicked);
   
 //     call function to load the next image and question

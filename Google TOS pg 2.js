@@ -11,7 +11,7 @@ function setup() {
   let p =  createP(pdfQuestions);
   let p2 = createP ();
   console.log("Got it!");
-  let img = createImg("assets/ladyBug-01.jpg");
+  let img = createImg("assets/Page_02.jpg");
   img.parent(p2);
   answers = createRadio();
   answers.option (A);
