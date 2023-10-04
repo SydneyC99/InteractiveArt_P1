@@ -34,7 +34,7 @@ function mouseClicked () {
     location.href = "page2.html";
     console.log("click!");
     console.log(answers.value());
-  // } else if (answers.value() == A){
+  }// else if (answers.value() == A){
   //   //load next pdf page
   // }
 
