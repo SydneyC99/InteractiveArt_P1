@@ -4,7 +4,7 @@ let p;
 function setup() {
     p = createP("404 Error");
     p.position(30, 30);
-    alert("No, dummy, can't you read??.");
+    alert("Take another read, you've got this!");
     
 }
 //gotta find the loop
