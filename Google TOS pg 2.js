@@ -1,15 +1,15 @@
-let pdfQuestions = "Question 2: B is the right answer.";
+let pdfQuestions = "Question 2: Who are you contracting with?";
 let answers;
-let A = "A) Wrong";
-let B = "B) B";
-let C = "C) Right";
+let A = "A) The Internet";
+let B = "B) Google LLC";
+let C = "C) My Computer";
 let val;
 
 function setup() {
   noCanvas();
- 
-  let p =  createP(pdfQuestions);
   let p2 = createP ();
+  let p =  createP(pdfQuestions);
+  
   console.log("Got it!");
   let img = createImg("assets/Page_02.jpg");
   img.parent(p2);
@@ -17,7 +17,7 @@ function setup() {
   answers.option (A);
   answers.option (B);
   answers.option (C);
-  
+  answers.class("Answers");
 //     call function to load the next image and question
 }
 
@@ -28,7 +28,7 @@ function mouseClicked () {
     console.log(answers.value());
   } 
 //     else if (answers.value() == A){
-//     location.href = "page2.html";
+//     location.href = "page3.html";
 //   }
 
   

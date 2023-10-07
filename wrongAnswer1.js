@@ -7,7 +7,7 @@ function setup() {
     alert("Nope that's not it! Try again.");
     
 }
-
+//should I make the last one into an answer page?
 
 function draw(){
     if (frameCount >= 60*5) {

@@ -7,7 +7,7 @@ function setup() {
     alert("No, that's not it.");
     
 }
-
+//gotta find the loop
 
 function draw(){
     if (frameCount >= 60*5) {

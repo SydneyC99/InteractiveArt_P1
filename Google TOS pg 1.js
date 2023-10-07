@@ -1,8 +1,8 @@
-let pdfQuestions = "Question 1: Who are you contracting with?";
+let pdfQuestions = "Question 1: Why should you be reading this TOS?";
 let answers;
-let A = "A) Google LLC";
-let B = "B) The Internet";
-let C = "C) My Computer";
+let A = "A) To establish what you can expect from Google services.";
+let B = "B) Because it's the right thing to do.";
+let C = "C) Might as well while you're here.";
 let val;
 let p;
 let p2;
