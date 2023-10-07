@@ -23,7 +23,7 @@ function setup() {
 
 function mouseClicked () {
   if (answers.value() == A || answers.value() == B) {
-    location.href = "wrongInput2.html";
+    location.href = "wrongInput3.html";
     console.log("click!");
     console.log(answers.value());
   } 
