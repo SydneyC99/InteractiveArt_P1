@@ -1,8 +1,8 @@
-let pdfQuestions = "Question 4: Who retains intellectual property rights within Google provided services?";
+let pdfQuestions = "Question 5: What does this license cover?";
 let answers;
-let A = "A) I retain the rights.";
+let A = "A) Privacy rights";
 let B = "B) Google retains the rights.";
-let C = "C) No one has intellectual property rights.";
+let C = "C) Your content if it is protected by IP rights.";
 let val;
 
 function setup() {
@@ -11,7 +11,7 @@ function setup() {
   let p =  createP(pdfQuestions);
   
   console.log("Got it!");
-  let img = createImg("assets/Page_04.jpg");
+  let img = createImg("assets/Page_05.jpg");
   img.parent(p2);
   answers = createRadio();
   answers.option (A);
@@ -22,14 +22,14 @@ function setup() {
 }
 
 function mouseClicked () {
-  if (answers.value() == A || answers.value() == C) {
-    location.href = "wrongInput4.html";
+  if (answers.value() == A || answers.value() == B) {
+    location.href = "wrongInput5.html";
     console.log("click!");
     console.log(answers.value());
   } 
-    else if (answers.value() == B){
-    location.href = "page5.html";
-  }
+//     else if (answers.value() == C){
+//     location.href = "page6.html";
+//   }
 
   
 }
