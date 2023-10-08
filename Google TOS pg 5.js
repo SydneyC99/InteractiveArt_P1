@@ -1,7 +1,7 @@
 let pdfQuestions = "Question 5: What does this license cover?";
 let answers;
 let A = "A) Privacy rights";
-let B = "B) Google retains the rights.";
+let B = "B) Feedback offered to Google.";
 let C = "C) Your content if it is protected by IP rights.";
 let val;
 
@@ -27,9 +27,9 @@ function mouseClicked () {
     console.log("click!");
     console.log(answers.value());
   } 
-//     else if (answers.value() == C){
-//     location.href = "page6.html";
-//   }
+    else if (answers.value() == C){
+    location.href = "page6.html";
+  }
 
   
 }
