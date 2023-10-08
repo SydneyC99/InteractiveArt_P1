@@ -27,9 +27,9 @@ function mouseClicked () {
     console.log("click!");
     console.log(answers.value());
   } 
-//     else if (answers.value() == B){
-//     location.href = "page10.html";
-//   }
+    else if (answers.value() == B){
+    location.href = "page11.html";
+  }
 
   
 }
