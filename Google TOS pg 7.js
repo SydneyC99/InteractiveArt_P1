@@ -1,6 +1,6 @@
 let pdfQuestions = "Question 7: How long does this license last?";
 let answers;
-let A = "A) As long as your content is protected by Intellectual Property .";
+let A = "A) As long as your content is protected by Intellectual Property Rights.";
 let B = "B) Forever.";
 let C = "C) For 1 year after you accept the terms.";
 let val;
@@ -27,9 +27,9 @@ function mouseClicked () {
     console.log("click!");
     console.log(answers.value());
   } 
-//     else if (answers.value() == A){
-//     location.href = "page7.html";
-//   }
+    else if (answers.value() == A){
+    location.href = "page8.html";
+  }
 
   
 }
