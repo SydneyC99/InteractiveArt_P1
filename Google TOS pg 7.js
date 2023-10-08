@@ -1,8 +1,8 @@
-let pdfQuestions = "Question 6: Which of these is a right provided by the lisence?";
+let pdfQuestions = "Question 7: How long does this license last?";
 let answers;
-let A = "A) Modify or create derivitive works based on your content.";
-let B = "B) Right to privacy and safety.";
-let C = "C) Right to remove others' content.";
+let A = "A) As long as your content is protected by Intellectual Property .";
+let B = "B) Forever.";
+let C = "C) For 1 year after you accept the terms.";
 let val;
 
 function setup() {
@@ -11,7 +11,7 @@ function setup() {
   let p =  createP(pdfQuestions);
   
   console.log("Got it!");
-  let img = createImg("assets/Page_06.jpg");
+  let img = createImg("assets/Page_07.jpg");
   img.parent(p2);
   answers = createRadio();
   answers.option (A);
@@ -23,13 +23,13 @@ function setup() {
 
 function mouseClicked () {
   if (answers.value() == B || answers.value() == C) {
-    location.href = "wrongInput6.html";
+    location.href = "wrongInput7.html";
     console.log("click!");
     console.log(answers.value());
   } 
-    else if (answers.value() == A){
-    location.href = "page7.html";
-  }
+//     else if (answers.value() == A){
+//     location.href = "page7.html";
+//   }
 
   
 }
