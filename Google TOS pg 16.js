@@ -1,4 +1,4 @@
-let pdfQuestions = "And you're done! Go ahead and Accept and you can use Google's Services!";
+let pdfQuestions = "And you're done! Go ahead and Accept and you can use Google's Services! Remember, you can't use these services if you don't accept the TOS!";
 let answers;
 let A = "A) Google Search.";
 let B = "B) Google Maps.";
@@ -15,6 +15,7 @@ function setup() {
   img.parent(p2);
   acceptButton = createButton("Accept");
   acceptButton.mousePressed(acceptTerms);
+  acceptButton.class ("button");
 }
 
 
