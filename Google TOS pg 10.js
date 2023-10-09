@@ -3,12 +3,13 @@ let answers;
 let A = "A) Full coverage.";
 let B = "B) There is no warranty provided here.";
 let C = "C) Coverage of Google's Maps and Search functions.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_10.jpg");

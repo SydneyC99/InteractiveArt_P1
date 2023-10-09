@@ -3,12 +3,13 @@ let answers;
 let A = "A) Anyone who has ever been related to the organization.";
 let B = "B) Only the active user.";
 let C = "C) An authorized organization representative.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_08.jpg");

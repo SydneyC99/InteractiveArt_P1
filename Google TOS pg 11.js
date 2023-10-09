@@ -3,12 +3,13 @@ let answers;
 let A = "A) Its own breaches of these terms or service-specific terms.";
 let B = "B) Any breaches applied by users or third parties.";
 let C = "C) They are not liable for anything.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_11.jpg");

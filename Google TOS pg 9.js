@@ -3,12 +3,13 @@ let answers;
 let A = "A) This license allows you to use Google's branding anywhere at anytime.";
 let B = "B) This license is only valid within the United States.";
 let C = "C) This license is non-assignable.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_09.jpg");

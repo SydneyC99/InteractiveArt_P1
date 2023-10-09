@@ -3,12 +3,13 @@ let answers;
 let A = "A) An individual who uses Google services for personal, non-commercial purposes.";
 let B = "B) An individual or entity who is not a consumer.";
 let C = "C) Anyone who uses Google services.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_14.jpg");

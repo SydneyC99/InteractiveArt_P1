@@ -3,12 +3,13 @@ let answers;
 let A = "A) Google Search.";
 let B = "B) Google Maps.";
 let C = "C) Google Slides.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_15.jpg");

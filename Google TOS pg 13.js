@@ -3,12 +3,13 @@ let answers;
 let A = "A) These terms.";
 let B = "B) They will cancel each other out.";
 let C = "C) The additional terms.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_13.jpg");
