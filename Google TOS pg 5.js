@@ -3,12 +3,13 @@ let answers;
 let A = "A) Privacy rights";
 let B = "B) Feedback offered to Google.";
 let C = "C) Your content if it is protected by IP rights.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_05.jpg");

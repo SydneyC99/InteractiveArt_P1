@@ -3,12 +3,13 @@ let answers;
 let A = "A) As long as your content is protected by Intellectual Property Rights.";
 let B = "B) Forever.";
 let C = "C) For 1 year after you accept the terms.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_07.jpg");

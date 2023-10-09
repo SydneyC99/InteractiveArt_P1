@@ -3,12 +3,13 @@ let answers;
 let A = "A) Modify or create derivitive works based on your content.";
 let B = "B) Right to privacy and safety.";
 let C = "C) Right to remove others' content.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_06.jpg");

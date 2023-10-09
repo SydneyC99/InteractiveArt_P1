@@ -3,12 +3,13 @@ let answers;
 let A = "A) The Export Button in Google Apps";
 let B = "B) Copy and Paste";
 let C = "C) Using Google Takeout";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_03.jpg");

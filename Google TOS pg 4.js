@@ -3,12 +3,13 @@ let answers;
 let A = "A) I retain the rights.";
 let B = "B) Google retains the rights.";
 let C = "C) No one has intellectual property rights.";
-let val;
+let p;
+let p2;
 
 function setup() {
   noCanvas();
-  let p2 = createP ();
-  let p =  createP(pdfQuestions);
+  p2 = createP ();
+  p =  createP(pdfQuestions);
   
   console.log("Got it!");
   let img = createImg("assets/Page_04.jpg");
