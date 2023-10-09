@@ -1,8 +1,8 @@
-let pdfQuestions = "Question 11: What is Google liable for?";
+let pdfQuestions = "Question 12: What state governs any legal disputes with Google Services?";
 let answers;
-let A = "A) Its own breaches of these terms or service-specific terms.";
-let B = "B) Any breaches applied by users or third parties.";
-let C = "C) They are not liable for anything.";
+let A = "A) California.";
+let B = "B) Ohio.";
+let C = "C) Kentucky.";
 let val;
 
 function setup() {
@@ -11,7 +11,7 @@ function setup() {
   let p =  createP(pdfQuestions);
   
   console.log("Got it!");
-  let img = createImg("assets/Page_11.jpg");
+  let img = createImg("assets/Page_12.jpg");
   img.parent(p2);
   answers = createRadio();
   answers.option (A);
@@ -23,12 +23,12 @@ function setup() {
 
 function mouseClicked () {
   if (answers.value() == C || answers.value() == B) {
-    location.href = "wrongInput11.html";
+    location.href = "wrongInput12.html";
     console.log("click!");
     console.log(answers.value());
   } 
     else if (answers.value() == A){
-    location.href = "page12.html";
+    location.href = "page13.html";
   }
 
   
